@@ -13,6 +13,7 @@ Bắt đầu tại [README.md](README.md). Mỗi đầu việc có hướng dẫ
 | Tổng kết sprint và cải tiến | Cuối sprint | [sprint-review](skills/sprint-review/SKILL.md) | [input.md](skills/sprint-review/assets/input.md) | [output.md](skills/sprint-review/assets/output.md) | `$sprint-review` |
 | Đánh giá đóng góp và trách nhiệm cá nhân | Cuối sprint hoặc kỳ 1:1 | [individual-review](skills/individual-review/SKILL.md) | [input.md](skills/individual-review/assets/input.md) | [output.md](skills/individual-review/assets/output.md) | `$individual-review` |
 | Bổ sung đầu việc và tích hợp | Khi quy trình thay đổi | [workspace-maintenance](skills/workspace-maintenance/SKILL.md) | [input.md](skills/workspace-maintenance/assets/input.md) | [output.md](skills/workspace-maintenance/assets/output.md) | `$workspace-maintenance` |
+| Đánh giá năng lực sử dụng AI | Theo đợt đánh giá hoặc kỳ phát triển năng lực | [ai-capability-review](skills/ai-capability-review/SKILL.md) | [input.md](skills/ai-capability-review/assets/input.md) | [output.md](skills/ai-capability-review/assets/output.md) | `$ai-capability-review` |
 
 ## Dữ liệu làm việc
 

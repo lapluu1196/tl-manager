@@ -80,3 +80,5 @@ python3 scripts/check_publication.py
 ```
 
 [Thêm đầu việc/tích hợp](docs/extending.md) · [Định nghĩa chỉ số](docs/metrics.md) · [Bảo vệ dữ liệu](docs/security.md)
+
+Đầu việc bổ sung: [đánh giá năng lực sử dụng AI theo L1–L5](skills/ai-capability-review/SKILL.md), với [hướng dẫn kết nối Google Sheets/Drive](docs/google-workspace.md). Cần đăng nhập OAuth trước khi thao tác Sheet thực tế.

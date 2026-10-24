@@ -12,10 +12,36 @@
       "setup": "scripts/setup_mcp.py",
       "check": "scripts/jira_check.py",
       "credential_file": ".local/secrets.env",
-      "required_variables": ["JIRA_URL", "JIRA_PERSONAL_TOKEN"],
+      "required_variables": [
+        "JIRA_URL",
+        "JIRA_PERSONAL_TOKEN"
+      ],
       "mode": "read-only",
       "runtime": "uvx with Python 3.12",
       "documentation": "docs/jira.md"
+    },
+    {
+      "id": "google-workspace",
+      "title": "Google Workspace (Sheets, Drive và các ứng dụng theo nhu cầu)",
+      "provider": "googleworkspace/cli",
+      "version": "0.22.5",
+      "source": "https://github.com/googleworkspace/cli",
+      "transport": "cli",
+      "command": [
+        "npx",
+        "--yes",
+        "@googleworkspace/cli@0.22.5"
+      ],
+      "authentication": "OAuth 2.0 Desktop app",
+      "credential_directory": ".local/google",
+      "config_variable": "GOOGLE_WORKSPACE_CLI_CONFIG_DIR",
+      "initial_scopes": [
+        "https://www.googleapis.com/auth/spreadsheets"
+      ],
+      "optional_scopes": [
+        "https://www.googleapis.com/auth/drive.metadata.readonly"
+      ],
+      "documentation": "docs/google-workspace.md"
     }
   ]
 }
