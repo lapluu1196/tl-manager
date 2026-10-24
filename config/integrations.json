@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "integrations": [
+    {
+      "id": "jira",
+      "title": "Jira Data Center",
+      "provider": "mcp-atlassian",
+      "version": "0.23.1",
+      "source": "https://github.com/sooperset/mcp-atlassian",
+      "transport": "stdio",
+      "launcher": "scripts/jira_mcp.py",
+      "setup": "scripts/setup_mcp.py",
+      "check": "scripts/jira_check.py",
+      "credential_file": ".local/secrets.env",
+      "required_variables": ["JIRA_URL", "JIRA_PERSONAL_TOKEN"],
+      "mode": "read-only",
+      "runtime": "uvx with Python 3.12",
+      "documentation": "docs/jira.md"
+    }
+  ]
+}

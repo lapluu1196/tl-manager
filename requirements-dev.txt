@@ -1,0 +1,3 @@
+# Runtime workspace scripts use only Python's standard library.
+coverage==7.17.0
+pip-audit==2.10.1

@@ -1,0 +1,26 @@
+# Credentials and operational data never belong in this public repository.
+.local/
+private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.codex/config.toml
+.agents/skills/
+.codegraph/
+.venv/
+__pycache__/
+*.py[cod]
+.coverage*
+htmlcov/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db

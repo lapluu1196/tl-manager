@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "sprint_duration_days": 14,
+  "working_days": [1, 2, 3, 4, 5],
+  "jira": {
+    "project_keys": [],
+    "board_id": null,
+    "boards": [],
+    "story_points_field": null,
+    "sprint_field": null,
+    "done_status_ids": [],
+    "cancelled_status_ids": [],
+    "definition_of_done": "Confirm acceptance, QA evidence and required release conditions with the team."
+  },
+  "planning": {
+    "capacity_buffer_percent": 20,
+    "story_point_scale": [1, 2, 3, 5, 8, 13],
+    "label_prefixes": ["goal-", "stream-", "type-", "risk-"]
+  }
+}
