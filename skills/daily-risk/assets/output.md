@@ -3,6 +3,7 @@
 | Thông tin | Giá trị |
 | --- | --- |
 | Sprint / board / ngày / múi giờ | |
+| baseline_at mốc đầu sprint / locked_at xác nhận | |
 | cutoff_at / fetched_at / nguồn | |
 | So sánh với báo cáo ngày | |
 | Dữ liệu thiếu / cũ / mức bao phủ | |
@@ -34,6 +35,8 @@
 | | | | | |
 
 ## Theo dõi tiếp
+
+Với release, báo riêng trạng thái issue, cờ `released` của version và kết quả QA trước/sau release; nêu chênh lệch và bằng chứng còn thiếu trước khi xác nhận hoàn tất.
 
 | Action ID | Nội dung | Owner | Hạn | Tiêu chí đóng / bằng chứng cần có |
 | --- | --- | --- | --- | --- |

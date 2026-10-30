@@ -1,13 +1,155 @@
 {
   "schema_version": 1,
   "workstreams": [
-    {"id": "team-setup", "title": "Thiết lập team và capacity", "cadence": "Khi onboarding và trước mỗi sprint", "path": "skills/team-setup", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "sprint-planning", "title": "Lập kế hoạch sprint", "cadence": "Mỗi 2 tuần", "path": "skills/sprint-planning", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "sprint-commitment", "title": "Chốt cam kết sprint", "cadence": "Sau planning", "path": "skills/sprint-commitment", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "daily-risk", "title": "Theo dõi hằng ngày và rủi ro mục tiêu", "cadence": "Hằng ngày", "path": "skills/daily-risk", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "sprint-review", "title": "Tổng kết sprint và cải tiến", "cadence": "Cuối sprint", "path": "skills/sprint-review", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "individual-review", "title": "Đánh giá đóng góp và trách nhiệm cá nhân", "cadence": "Cuối sprint hoặc kỳ 1:1", "path": "skills/individual-review", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["jira"]},
-    {"id": "workspace-maintenance", "title": "Bổ sung đầu việc và tích hợp", "cadence": "Khi quy trình thay đổi", "path": "skills/workspace-maintenance", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": []},
-    {"id": "ai-capability-review", "title": "Đánh giá năng lực sử dụng AI", "cadence": "Theo đợt đánh giá hoặc kỳ phát triển năng lực", "path": "skills/ai-capability-review", "inputs": ["input.md"], "outputs": ["output.md"], "integrations": ["google-workspace"]}
+    {
+      "id": "team-setup",
+      "title": "Thiết lập team và capacity",
+      "cadence": "Khi onboarding và trước mỗi sprint",
+      "path": "skills/team-setup",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "sprint-planning",
+      "title": "Lập kế hoạch sprint",
+      "cadence": "Mỗi 2 tuần",
+      "path": "skills/sprint-planning",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "sprint-commitment",
+      "title": "Chốt cam kết sprint",
+      "cadence": "Sau planning",
+      "path": "skills/sprint-commitment",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "daily-risk",
+      "title": "Theo dõi hằng ngày và rủi ro mục tiêu",
+      "cadence": "Hằng ngày",
+      "path": "skills/daily-risk",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "sprint-review",
+      "title": "Tổng kết sprint và cải tiến",
+      "cadence": "Cuối sprint",
+      "path": "skills/sprint-review",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "individual-review",
+      "title": "Đánh giá đóng góp và trách nhiệm cá nhân",
+      "cadence": "Cuối sprint hoặc kỳ 1:1",
+      "path": "skills/individual-review",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    },
+    {
+      "id": "workspace-maintenance",
+      "title": "Bổ sung đầu việc và tích hợp",
+      "cadence": "Khi quy trình thay đổi",
+      "path": "skills/workspace-maintenance",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": []
+    },
+    {
+      "id": "ai-capability-review",
+      "title": "Đánh giá năng lực sử dụng AI",
+      "cadence": "Theo đợt đánh giá hoặc kỳ phát triển năng lực",
+      "path": "skills/ai-capability-review",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "google-workspace"
+      ]
+    },
+    {
+      "id": "management-reporting",
+      "title": "Báo cáo tập trung cho quản lý",
+      "cadence": "Sau mỗi báo cáo planning, cam kết, rủi ro hoặc tổng kết sprint",
+      "path": "skills/management-reporting",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md"
+      ],
+      "integrations": [
+        "jira",
+        "google-workspace"
+      ]
+    },
+    {
+      "id": "story-point-estimation",
+      "title": "Ước lượng story point",
+      "cadence": "Khi estimate hoặc hiệu chỉnh mẫu theo board/version/sprint",
+      "path": "skills/story-point-estimation",
+      "inputs": [
+        "input.md"
+      ],
+      "outputs": [
+        "output.md",
+        "base-points.md"
+      ],
+      "integrations": [
+        "jira"
+      ]
+    }
   ]
 }

@@ -53,6 +53,14 @@ Lệnh tạo `private/sprints/sprint-001/`, metadata và các mẫu theo từng 
 
 Các skill hướng dẫn AI thực hiện công việc. Workspace chưa phải dashboard tự chạy hay job báo cáo theo lịch; dữ liệu cần được đọc từ Jira và bổ sung thông tin capacity/mục tiêu trước mỗi lần phân tích.
 
+## Báo cáo tập trung cho manager
+
+Dùng [management-reporting](skills/management-reporting/SKILL.md) để công bố báo cáo sprint trên một Google Sheet tập trung: Tổng quan dễ đọc, chi tiết theo sprint, link Jira và lịch sử các lần cập nhật. File có link ổn định lưu trong cấu hình private; Markdown và dữ liệu nguồn vẫn giữ ở `private/`. Bản nháp, cam kết đầu sprint và kết quả hiện tại được ghi rõ để tránh hiểu nhầm số liệu.
+
+> Dùng `$management-reporting` cập nhật sprint `<id>` vào Google Sheet tập trung đã cấu hình; giữ lịch sử và ghi chú manager, nêu nguồn, cutoff và dữ liệu còn thiếu.
+
+Đọc [hướng dẫn kết nối Google Workspace](docs/google-workspace.md#báo-cáo-tập-trung-cho-quản-lý) để tạo file, đăng nhập và chia sẻ. Quyền xem/comment qua link phải được người dùng yêu cầu cụ thể cho từng file; không tự áp dụng cho đánh giá cá nhân hoặc các Sheet khác.
+
 ## Cấu trúc
 
 | Vị trí | Nội dung |

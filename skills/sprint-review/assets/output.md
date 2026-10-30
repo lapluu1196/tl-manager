@@ -3,7 +3,7 @@
 | Thông tin | Giá trị |
 | --- | --- |
 | Sprint / board / khoảng thời gian / múi giờ | |
-| Baseline / locked_at | |
+| Baseline / baseline_at mốc đầu sprint / locked_at xác nhận | |
 | cutoff_at / fetched_at / nguồn / độ đầy đủ | |
 | DoD / cấp issue tính SP | |
 | Phạm vi board / cách khử trùng nếu tổng hợp bộ phận | |
@@ -27,6 +27,14 @@
 | Resolved nhưng chưa xác nhận clear | | |
 | Giao thực tế theo estimate đã chốt | | D + SP lúc nhận của added đã clear |
 | Tổng clear theo SP hiện tại, nếu cần | | Chỉ số riêng; ghi thời điểm estimate |
+
+## Nguồn SP từng issue
+
+SP team trên Story/Bug; loại issue Designer/BA riêng, không cộng task/subtask. Ưu tiên Original story points; fallback Story Points chỉ khi Original null/không có. Original=0 hợp lệ; cả hai thiếu là chưa estimate. Không dùng field estimate mặc định board thay quy tắc team. Giữ nguồn tại từng mốc, không điền SP hiện tại ngược về baseline.
+
+| Issue | Mốc: baseline_at / lúc added / hiện tại | Original story points | Story Points | SP chọn / trường nguồn / lý do fallback | Bằng chứng snapshot / history |
+| --- | --- | --- | --- | --- | --- |
+| | | | | | |
 
 ## Mục tiêu
 

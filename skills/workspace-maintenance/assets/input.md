@@ -9,6 +9,14 @@
 | Phạm vi sửa / đồng bộ Git đã được yêu cầu | |
 | Nguồn yêu cầu / thời điểm | |
 
+## Quy ước và bài học cần cập nhật
+
+| Quy ước đã được xác nhận / thiếu sót có bằng chứng | Nguồn quyết định trong private / thời điểm | Nơi sở hữu canonical | Đề xuất chưa xác nhận (nếu có) |
+| --- | --- | --- | --- |
+| | | | |
+
+Không chép nội dung nhạy cảm vào tài liệu chung. Chỉ tạo đầu việc mới khi không thuộc workflow hiện có; tự phát triển không mở rộng quyền Jira/Git.
+
 ## Hợp đồng đầu vào và đầu ra
 
 | Loại | Tên artifact / trường dữ liệu | Nguồn hoặc người cung cấp | Nơi lưu | Mức nhạy cảm |

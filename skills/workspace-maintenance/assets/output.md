@@ -7,6 +7,14 @@
 | Nguồn yêu cầu | |
 | Trạng thái: nháp, hoàn tất cục bộ hoặc đã đồng bộ | |
 
+## Tự phát triển bắt buộc
+
+| Quy ước / bài học đã xác nhận | Skill / docs / template sở hữu đã cập nhật | Đề xuất còn chờ quyết định | Bằng chứng quyết định trong private |
+| --- | --- | --- | --- |
+| | | | |
+
+Nếu không có điều mới, ghi đã rà soát và lý do không sửa. Ghi rõ phạm vi ủy quyền hiện có; không coi thay đổi cục bộ là quyền sửa Jira hoặc push Git.
+
 ## Thay đổi
 
 | Thành phần | Đường dẫn / integration ID | Nội dung và lý do |

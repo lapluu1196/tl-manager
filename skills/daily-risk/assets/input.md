@@ -3,6 +3,7 @@
 | Thông tin | Giá trị |
 | --- | --- |
 | Sprint / board / ngày theo dõi / múi giờ | |
+| baseline_at mốc đầu sprint / locked_at xác nhận | |
 | cutoff_at / fetched_at | |
 | Baseline / change log / báo cáo ngày trước | |
 | Nguồn Jira / JQL / phạm vi / phân trang đủ | |
@@ -28,6 +29,8 @@
 | | | | |
 
 ## Dữ liệu chưa có
+
+Nếu kiểm tra release, thu riêng trạng thái issue, fix version và cờ `released` từ API, task QA trước/sau release, bằng chứng triển khai/nghiệm thu và thời điểm cập nhật. Xác minh sprint/version thuộc phạm vi; ticket cũ ngoài sprint ghi riêng.
 
 | Nội dung | Ai bổ sung | Khi nào | Giới hạn đánh giá |
 | --- | --- | --- | --- |

@@ -14,6 +14,8 @@ Bắt đầu tại [README.md](README.md). Mỗi đầu việc có hướng dẫ
 | Đánh giá đóng góp và trách nhiệm cá nhân | Cuối sprint hoặc kỳ 1:1 | [individual-review](skills/individual-review/SKILL.md) | [input.md](skills/individual-review/assets/input.md) | [output.md](skills/individual-review/assets/output.md) | `$individual-review` |
 | Bổ sung đầu việc và tích hợp | Khi quy trình thay đổi | [workspace-maintenance](skills/workspace-maintenance/SKILL.md) | [input.md](skills/workspace-maintenance/assets/input.md) | [output.md](skills/workspace-maintenance/assets/output.md) | `$workspace-maintenance` |
 | Đánh giá năng lực sử dụng AI | Theo đợt đánh giá hoặc kỳ phát triển năng lực | [ai-capability-review](skills/ai-capability-review/SKILL.md) | [input.md](skills/ai-capability-review/assets/input.md) | [output.md](skills/ai-capability-review/assets/output.md) | `$ai-capability-review` |
+| Báo cáo tập trung cho quản lý | Sau mỗi báo cáo planning, cam kết, rủi ro hoặc tổng kết sprint | [management-reporting](skills/management-reporting/SKILL.md) | [input.md](skills/management-reporting/assets/input.md) | [output.md](skills/management-reporting/assets/output.md) | `$management-reporting` |
+| Ước lượng story point | Khi estimate hoặc hiệu chỉnh mẫu theo board/version/sprint | [story-point-estimation](skills/story-point-estimation/SKILL.md) | [input.md](skills/story-point-estimation/assets/input.md) | [output.md](skills/story-point-estimation/assets/output.md), [base-points.md](skills/story-point-estimation/assets/base-points.md) | `$story-point-estimation` |
 
 ## Dữ liệu làm việc
 
